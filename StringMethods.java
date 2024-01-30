@@ -33,7 +33,7 @@ public class StringMethods {
         //System.out.println(modifiedName.indexOf("llo", 3));
         //System.out.println(modifiedName.lastIndexOf("o", 6));
 
-        //System.out.println(name.equals("Harry"));
+        //System.out.println(name.equals("Hello"));
         System.out.println(name.equalsIgnoreCase("HeLLo"));
 
     }
