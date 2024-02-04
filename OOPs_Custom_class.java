@@ -1,19 +1,21 @@
-public class OOPs_Custom_class {
+class Employee{
+    int id;
+    String name;
+    int salary;
 
-    static class Employee{
-        int id;
-        String name;
-        int salary;
-
-        public void printDetails(){
-            System.out.println("Id is : " + id);
-            System.out.println("Name of the employee is : " + name);
-        }
-
-        public int getSalary(){
-            return salary;
-        }
+    public void printDetails(){
+        System.out.println("Id is : " + id);
+        System.out.println("Name of the employee is : " + name);
     }
+
+    public int getSalary(){
+        return salary;
+    }
+}
+
+
+
+public class OOPs_Custom_class {
 
     public static void main(String[] args) {
         System.out.println("This is a custom class.");
