@@ -16,7 +16,7 @@ class MyEmployee{
     }
 }
 
-public class AccessSpecifiers {
+public class AccessModifiers {
     public static void main(String[] args) {
         MyEmployee e1 = new MyEmployee();
 
