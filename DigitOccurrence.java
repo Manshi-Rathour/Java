@@ -13,9 +13,6 @@ public class DigitOccurrence {
         System.out.print("Enter the digit (d): ");
         int d = scanner.nextInt();
 
-        // Close the scanner to avoid resource leak
-        scanner.close();
-
         // Calculate the occurrence of the digit
         int occurrence = countDigitOccurrence(n, d);
 
