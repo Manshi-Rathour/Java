@@ -1,7 +1,7 @@
 interface Bicycle{
     int a = 45;
-    void applyBreak(int decrement);
-    void speedUp(int increment);
+    void applyBreak();
+    void speedUp();
 }
 
 interface HornBicycle{
@@ -9,10 +9,10 @@ interface HornBicycle{
 }
 
 class AvonCycle implements Bicycle, HornBicycle{
-    public void applyBreak(int dec){
+    public void applyBreak(){
         System.out.println("Applying Breaks!");
     }
-    public void speedUp(int inc){
+    public void speedUp(){
         System.out.println("Applying SpeedUp!");
     }
     public void blowHorn(){
@@ -23,7 +23,7 @@ class AvonCycle implements Bicycle, HornBicycle{
 public class Interface {
     public static void main(String[] args) {
         AvonCycle av = new AvonCycle();
-        av.applyBreak(1);
+        av.applyBreak();
         System.out.println(av.a);
 
         // We cannot modify the properties in Interfaces as they are final
